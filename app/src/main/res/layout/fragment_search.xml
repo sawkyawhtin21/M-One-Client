@@ -3,7 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SearchFragment">
+    tools:context=".SearchFragment"
+    android:background="@color/colorPrimary">
 
     <!-- TODO: Update blank fragment layout -->
   <ScrollView
@@ -17,7 +18,8 @@
               android:layout_width="match_parent"
               android:layout_height="wrap_content"
               android:layout_alignParentTop="true"
-              android:id="@+id/container1"/>
+              android:id="@+id/container1"
+              android:background="@color/color_white"/>
           <EditText
               android:paddingLeft="10dp"
               android:hint="Search By Name"
@@ -28,7 +30,8 @@
               android:id="@+id/search"
               android:drawableRight="@drawable/ic_search"
               android:drawableTint="@color/colorPrimary"
-              android:background="@drawable/edtbg"/>
+              android:background="@drawable/edtbg"
+              android:backgroundTint="@color/color_white"/>
           <TextView
 
               android:id="@+id/txtmovie"
@@ -36,7 +39,8 @@
               android:layout_width="match_parent"
               android:layout_height="wrap_content"
               android:layout_below="@id/search"
-              android:text="Search Movie : " />
+              android:text="Search Movie : "
+              android:textColor="@color/color_white"/>
           <androidx.recyclerview.widget.RecyclerView
               android:layout_below="@id/txtmovie"
               android:layout_width="match_parent"
@@ -49,7 +53,8 @@
               android:layout_width="match_parent"
               android:layout_height="wrap_content"
               android:layout_below="@id/allmovie"
-              android:text="Search Seires" />
+              android:text="Search Seires"
+              android:textColor="@color/color_white"/>
 
           <androidx.recyclerview.widget.RecyclerView
               android:layout_below="@id/txtseries"

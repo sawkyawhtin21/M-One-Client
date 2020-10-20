@@ -30,6 +30,7 @@ dimen gnt_text_size_large
 dimen gnt_text_size_small
 drawable gnt_outline_shape
 drawable gnt_rounded_corners_shape
+drawable mone
 id ad_notification_view
 id background
 id body

@@ -4,7 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".SeriesDetailFragment">
+    tools:context=".SeriesDetailFragment"
+    android:background="@color/colorPrimary">
 
     <!-- TODO: Update blank fragment layout -->
   <ScrollView
@@ -49,7 +50,7 @@
                   android:textSize="30sp"
                   android:textStyle="bold"
                   android:gravity="center"
-                  android:textColor="@color/colorPink"
+                  android:textColor="@color/color_white"
                   android:text="Series Name"/>
 
 
@@ -69,7 +70,7 @@
                       android:drawablePadding="10dp"
                       android:id="@+id/txtviewcount"
                       android:textSize="@dimen/view_count_text_size"
-                      android:textColor="@color/infoColor"
+                      android:textColor="@color/color_white"
                       android:textStyle="bold"
                       android:padding="20dp"/>
 

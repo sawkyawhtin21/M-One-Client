@@ -6,7 +6,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".VideoDetailFragment">
+    tools:context=".VideoDetailFragment"
+    android:background="@color/colorPrimaryDark">
 
     <!-- TODO: Update blank fragment layout -->
 
@@ -22,11 +23,12 @@
                 android:id="@+id/playerContent"
                 android:layout_width="match_parent"
                 android:layout_height="300dp">
+
                 <com.google.android.exoplayer2.ui.SimpleExoPlayerView
                     android:id="@+id/player_view"
                     android:layout_width="match_parent"
-                    android:layout_height="300dp"
-                    />
+                    android:layout_height="300dp" />
+
 
                 <ProgressBar
 
@@ -42,6 +44,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@color/colorOnPrimaryLight">
+
+
 
                 <ImageView
 
@@ -65,12 +69,14 @@
 
             <com.google.android.ads.nativetemplates.TemplateView
 
-                android:layout_margin="@dimen/padding_20"
                 android:id="@+id/smalltemplate"
-                android:layout_below="@id/control"
-                app:gnt_template_type="@layout/gnt_medium_template_view"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:layout_below="@id/control"
+                android:layout_marginTop="-78dp"
+                android:layout_marginBottom="@dimen/padding_20"
+                app:gnt_template_type="@layout/gnt_medium_template_view" />
+
             <com.google.android.ads.nativetemplates.TemplateView
                 android:layout_margin="20dp"
                 android:id="@+id/largetemplate"
